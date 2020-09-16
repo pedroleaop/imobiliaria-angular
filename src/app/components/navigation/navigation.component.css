@@ -1,4 +1,15 @@
+mat-toolbar {
+  background-color: cadetblue;
+  height: 15vh;
+}
+
+.titulo {
+  color: whitesmoke;
+  font-size: 4vh;
+}
+
 .sidenav-container {
+  background-color: #a68064;
   height: 100%;
 }
 
