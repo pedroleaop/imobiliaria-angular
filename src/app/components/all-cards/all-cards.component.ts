@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ImoveisApi } from 'src/app/services/imoveis-api/imoveis-api';
+import { ImoveisApiService } from 'src/app/services/imoveis-api/imoveis-api.service';
 
 @Component({
   selector: 'app-all-cards',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllCardsComponent implements OnInit {
 
-  constructor() { }
+  listaImoveis: ImoveisApi[];
+
+  constructor(private imoveisConstructorAll:ImoveisApiService) { }
 
   ngOnInit(): void {
+
+    this.imoveisConstructorAll.List().subscribe( (lista) => {this.listaImoveis = lista;} )
+
   }
 
 }
