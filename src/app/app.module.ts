@@ -15,11 +15,16 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { HttpClientModule } from '@angular/common/http';
+
 /* components */
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { AdressFormComponent } from './components/adress-form/adress-form.component';
 import { SingleCardComponent } from './components/single-card/single-card.component';
 import { AllCardsComponent } from './components/all-cards/all-cards.component';
+import { FirstPageComponent } from './components/first-page/first-page.component';
+import { GridFirstPageComponent } from './components/grid-first-page/grid-first-page.component';
 
 
 
@@ -29,7 +34,9 @@ import { AllCardsComponent } from './components/all-cards/all-cards.component';
     NavigationComponent,
     AdressFormComponent,
     SingleCardComponent,
-    AllCardsComponent
+    AllCardsComponent,
+    FirstPageComponent,
+    GridFirstPageComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +52,9 @@ import { AllCardsComponent } from './components/all-cards/all-cards.component';
     MatSelectModule,
     MatRadioModule,
     MatCardModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatGridListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

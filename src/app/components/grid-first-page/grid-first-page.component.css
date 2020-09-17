@@ -1,0 +1,24 @@
+.linha1 {
+  width: 100vw;
+  padding-bottom: 0;
+}
+
+.linha1 img {
+  width: 50vw;
+}
+
+.linha2 {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+img {
+  width: 60vw;
+}
+
+.img2 {
+  width: 40vw;
+}

@@ -1,0 +1,14 @@
+.titulo {
+  margin: 2vw;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo2 {
+  margin: 2vw;
+  color: white;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

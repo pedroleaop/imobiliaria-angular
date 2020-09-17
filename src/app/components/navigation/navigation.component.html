@@ -5,9 +5,9 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Casas</a>
-      <a mat-list-item href="#">Contato</a>
-      <a mat-list-item href="#">Outra</a>
+      <a mat-list-item routerLink="">Início</a>
+      <a mat-list-item routerLink="casas">Casas</a>
+      <a mat-list-item routerLink="form">Entre em contato</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,7 +22,7 @@
       </button>
       <img class="titulo" src="assets/logo.png" />
     </mat-toolbar>
-    <app-adress-form></app-adress-form>
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
 <footer>Imobiliária. Todos os direitos reservados. 2020. Mais infos.</footer>
