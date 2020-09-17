@@ -15,7 +15,7 @@ export class SingleCardComponent implements OnInit {
 
   title: string = 'Casa de praia em Itamaracá';
   owner: string = 'José João';
-  imgURL: string = 'https://material.angular.io/assets/img/examples/shiba1.jpg';
+  imgURL: string = 'https://img.olx.com.br/images/41/419829025112163.jpg';
   description: string = 'Casa de praia em Itamaracá super confortável para até 20 pessoas.';
 
 }

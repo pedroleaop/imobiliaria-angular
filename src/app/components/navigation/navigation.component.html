@@ -18,10 +18,11 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon">house</mat-icon>
       </button>
-      <span class="titulo">Imobiliária</span>
+      <img class="titulo" src="assets/logo.png" />
     </mat-toolbar>
-    <app-single-card></app-single-card>
+    <app-adress-form></app-adress-form>
   </mat-sidenav-content>
 </mat-sidenav-container>
+<footer>Imobiliária. Todos os direitos reservados. 2020. Mais infos.</footer>

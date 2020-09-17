@@ -4,6 +4,8 @@ mat-toolbar {
 }
 
 .titulo {
+  width: 200px;
+  padding-left: 25px;
   color: whitesmoke;
   font-size: 4vh;
 }
@@ -25,4 +27,13 @@ mat-toolbar {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+footer {
+  color: white;
+  font-size: xx-small;
+  text-shadow: 1px 2px darkslategray;
+  text-align: center;
+  background-color: rgb(66, 116, 117);
+  padding: 2.5vh;
 }

@@ -1,11 +1,11 @@
 .example-card {
   max-width: 96vw;
-  margin: 2vw 2vw 0 2vw;
+  margin: 2vw 2vw 2vw 2vw;
   background-color: whitesmoke;
   display: block;
 }
 
 .example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url('https://img.olx.com.br/images/41/419829025112163.jpg');
   background-size: cover;
 }
